@@ -10,6 +10,14 @@ header,
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+header,
+.intro, 
+footer {
+    background-color: rgb(207, 110, 167);
+    color: white;
 }
 
 logo {
@@ -22,19 +30,18 @@ ul {
     gap: 16px;
     text-align: center;
 }
-header,
-.intro, 
-footer {
-    background-color: rgb(207, 110, 167);
-    color: white;
-}
 
 li {
     text-decoration: none;
     list-style-type: none;
 }
 
-content {
+li:hover {
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,6 +55,7 @@ content {
 .option {
     max-width: 200px;
     margin: 8px;
+    text-align: center;
 }
 
 .quote {
@@ -59,7 +67,7 @@ content {
 
 
 .action {
-    background-color: rgb(105, 65, 199);
+    background-color: #d44487;
     padding: 0px 42px 42px 42px;
     display: flex;
     align-items: center;
@@ -78,11 +86,19 @@ footer {
 h1 {
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 0;
   }
 
 img {
     max-height: 200px;
     flex-shrink: auto;
     border-radius: 20px;
-    border-color: turquoise;
   }
+
+main img:hover {
+    border:5px solid #BF1756;
+}
+
+button:hover {
+    background-color: #EACEEC;
+}
