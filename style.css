@@ -11,6 +11,7 @@ header,
     padding-left: 100px;
     padding-right: 100px;
 }
+
 logo {
     font-size: 24px;
 }
@@ -41,6 +42,7 @@ content {
 .options {
     display: flex;
     padding: 16px 200px 16px 200px;
+    flex-wrap: wrap;
 }
 
 .option {
@@ -78,7 +80,9 @@ h1 {
     font-weight: 900;
   }
 
-  img {
+img {
     max-height: 200px;
     flex-shrink: auto;
+    border-radius: 20px;
+    border-color: turquoise;
   }
